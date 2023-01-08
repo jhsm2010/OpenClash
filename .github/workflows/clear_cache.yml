@@ -32,3 +32,4 @@ jobs:
              # echo ${{ steps.changed_files.outputs.all }}
              curl -sL --retry 3 https://purge.jsdelivr.net/gh/vernesong/OpenClash@${{ github.ref_name }}/$i
           done
+
